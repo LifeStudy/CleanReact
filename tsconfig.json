@@ -13,6 +13,9 @@
     "rootDir": "src",
     "baseUrl": "src",
     "allowJs": true,
+    "paths": {
+      "@/*": ["*"]
+    },
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
